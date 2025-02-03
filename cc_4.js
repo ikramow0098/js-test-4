@@ -5,6 +5,8 @@ if (purchaseAmount > 100) {
     finalAmount = purchaseAmount * 0.9
 }
 console.log(finalAmount)
+console.log("----------------------------------")
+
 
 //Task 2 - Sales Report.
 let sales = [120, 85, 200, 150, 90]
@@ -14,6 +16,8 @@ for (let index = 0; index < sales.length; index++) {
     totalSales += sale
 }
 console.log(totalSales)
+console.log("----------------------------------")
+
 
 //Task 3 - Inventory Depletion
 let stock = 10
@@ -27,4 +31,16 @@ let responses = 0;
 do {
     console.log(responses)
     responses++;
-} while (responses<=3);
+} while (responses <= 3);
+
+console.log("----------------------------------")
+
+//Task 5 - Employee Information.
+let employee = {
+    name: "Alice",
+    position: "Manager",
+    salary: 75000
+}
+for (const key in employee) {
+    console.log(employee[key])
+}
