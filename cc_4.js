@@ -51,3 +51,12 @@ let products = ["Laptop", "Mouse", "Keyboard"]
 for (const element of products) {
     console.log(element)
 }
+console.log("----------------------------------")
+
+
+//Task 7 - Order Processing.
+let orders = [101,102,103]
+orders.forEach((order)=>{
+    console.log(order)
+})
+console.log("----------------------------------")
