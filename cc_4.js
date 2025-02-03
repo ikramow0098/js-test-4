@@ -21,3 +21,10 @@ while (stock) {
     stock -= 1
     console.log(stock)
 }
+console.log("----------------------------------")
+//Task 4 - Customer Survey.
+let responses = 0;
+do {
+    console.log(responses)
+    responses++;
+} while (responses<=3);
