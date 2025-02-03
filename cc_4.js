@@ -44,3 +44,10 @@ let employee = {
 for (const key in employee) {
     console.log(employee[key])
 }
+console.log("----------------------------------")
+
+//Task 6 - Product Listings
+let products = ["Laptop", "Mouse", "Keyboard"]
+for (const element of products) {
+    console.log(element)
+}
