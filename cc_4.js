@@ -74,3 +74,9 @@ function applyDiscount(price,discount){
     return price-(price*discount/100)
 }
 console.log(applyDiscount(100,20))
+console.log("----------------------------------")
+
+
+//Task 10 - Loyalty Points.
+let calculatePoints = (amount) => Math.floor(amount/10);
+console.log(calculatePoints(54))
