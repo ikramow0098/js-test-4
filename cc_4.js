@@ -66,3 +66,11 @@ function calculateTax(amount, taxRate){
     return amount*taxRate/100
 }
 console.log(calculateTax(120, 8))
+console.log("----------------------------------")
+
+
+//Task 9 - Discount Application.
+function applyDiscount(price,discount){
+    return price-(price*discount/100)
+}
+console.log(applyDiscount(100,20))
