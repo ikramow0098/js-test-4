@@ -60,3 +60,9 @@ orders.forEach((order)=>{
     console.log(order)
 })
 console.log("----------------------------------")
+
+//Task 8 - Tax Calculation.
+function calculateTax(amount, taxRate){
+    return amount*taxRate/100
+}
+console.log(calculateTax(120, 8))
