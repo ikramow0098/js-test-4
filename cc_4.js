@@ -14,3 +14,10 @@ for (let index = 0; index < sales.length; index++) {
     totalSales += sale
 }
 console.log(totalSales)
+
+//Task 3 - Inventory Depletion
+let stock = 10
+while (stock) {
+    stock -= 1
+    console.log(stock)
+}
